@@ -63,6 +63,13 @@ pytest --headed             # watch the browser
 ```
 After a run, open `reports/report.html`. Screenshots of failed UI tests are saved in `test-results/`.
 
+
+## Result
+
+![alt text](image.png)
+
+
+
 ## Notes
 - The demo sites are public, so occasional slowness can cause flaky failures.
 - JSONPlaceholder only simulates writes, so POST, PUT and DELETE return success without saving data.
